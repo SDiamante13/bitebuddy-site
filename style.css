@@ -177,8 +177,9 @@ body {
 
 .beta iframe {
   width: 100%;
-  max-width: 480px;
-  height: 380px;
+  max-width: 640px;
+  height: 500px;
+  margin-top: 0.5rem;
   border: none;
   border-radius: 12px;
   background: #fff;
