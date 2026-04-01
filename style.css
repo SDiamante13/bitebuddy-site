@@ -1,4 +1,5 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Fredoka', sans-serif;
@@ -148,6 +149,67 @@ body {
   opacity: 0.85;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+/* Beta */
+
+.beta {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 18px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.beta h2 {
+  color: #FFE066;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.beta > p {
+  color: #FFE066;
+  opacity: 0.85;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.beta iframe {
+  width: 100%;
+  max-width: 480px;
+  height: 380px;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.beta .helper {
+  color: #A3FF6B;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.beta .helper a {
+  color: #FF6BDF;
+  text-decoration: none;
+}
+
+.beta .helper a:hover { text-decoration: underline; }
+
+.btn-coming-soon {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 1rem;
+  background: #FFE066;
+  color: #1A0533;
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
 }
 
 /* Footer */
